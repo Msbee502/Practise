@@ -1,0 +1,4 @@
+body {
+  width: 100%;
+  background-image: url(/images/bg-img-1.png), url(/images/bg-img-2.png), url(/images/bg-img-3.png), url(/images/bg-img-4.png), url(/images/bg-img-5.png);
+}
