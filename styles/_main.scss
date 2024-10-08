@@ -1,4 +1,19 @@
-body {
-   width: 100%; 
-   background-image: url(/images/bg-img-1.png), url(/images/bg-img-2.png), url(/images/bg-img-3.png), url(/images/bg-img-4.png), url(/images/bg-img-5.png) ;
+// body {
+//    width: 100%; 
+//    background-image: url("Bg-pic-1.jpg"), 
+//    url ("../images/Bg-pic-2.jpg");
+// }
+
+@import 'variables';
+
+
+// body {
+//    width: 100%;
+//    height: 100vh;
+//    background-image: url(../images/Bg-pic-1.jpg), url(../images/Bg-pic-2.jpg);
+
+// }
+
+.text {
+   font-family: $aleo14;
 }

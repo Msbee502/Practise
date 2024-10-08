@@ -1,4 +1,18 @@
-body {
+.text {
+  font-family: 14px;
+}
+
+header {
   width: 100%;
-  background-image: url(/images/bg-img-1.png), url(/images/bg-img-2.png), url(/images/bg-img-3.png), url(/images/bg-img-4.png), url(/images/bg-img-5.png);
+  height: 100vh;
+  background-image: url(../images/Bg-pic-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: rgb(10, 3, 60);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

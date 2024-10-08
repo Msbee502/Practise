@@ -12,14 +12,17 @@
 // <weight>: Use a value from 100 to 900
 
 // .aleo-<uniquifier> {
+
 //     font-family: "Aleo", serif;
 //     font-optical-sizing: auto;
 //     font-weight: <weight>;
 //     font-style: normal;
 //   }
 
-@import 'variables';
-@import 'main';
-@import 'header';
-@import 'footer'
 
+
+
+@import 'footer';
+@import 'main';
+@import 'variables';
+@import 'header';
