@@ -3,11 +3,106 @@
 header {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/Bg-pic-1.jpg"), url("../images/Bg-pic-2.jpg"), url("../images/Bg-pic-3.jpg");
+    background-image: url("../images/Bg-pic-1.jpg");
     background-repeat: no-repeat;
-    background-position: top, top 513px;
-    background-color: rgb(10, 3, 60);
+    background-position: center top;
+    background-size: cover;
+    background-color: rgb(123, 112, 204);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 
+
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    h1 {
+        font-family: $fontjosefin;
+        color: white;
+        font-size: $josefin48;
+    }
+
+    p {
+        font-family: $fontjosefin;
+        color: white;
+        font-size: $josefin16;
+    }
+}
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+      
+}
+form {
+    font-family: $fontaleo;
+    font-size: $aleo14;
+}
+.input {
+   width: 30vw;
+   height: 65px;
+}
+input:focus {
+    background-color: orange;
+       
+}
+.searchbtn {
+    width: 173px;
+    height: 69px;
+    background-color: #5474FD;
+    border: 10px solid white;
+    margin-left: -5px;
+    
+     
+}
+button:hover {
+    color: orange;
+    background-color: #232323;
+    cursor: pointer;
+}
+
+
+.topnav {
+    width: 100%;
+    height: 83px;
+    background-color: #5474FD;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.topnav {
+    align-items: center;
+
+    .list {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 25px;
+        margin-right: 25px;
+        list-style: none;
+        font-family: $fontaleo;
+        font-size: $aleo14;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: orange;
+    }
+
+    //   a:visited {
+    //     color: grey;
+    //   }
 }
