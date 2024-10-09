@@ -1,6 +1,11 @@
 body {
   width: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .first-container {
@@ -10,7 +15,42 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  margin-top: -2vh;
+  margin-top: -3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.first-text-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+.first-text-container .first-headline {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  color: white;
+}
+.first-text-container .first-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
 }
 
 .second-container {
