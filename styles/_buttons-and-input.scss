@@ -19,7 +19,10 @@
      color: orange;
      background-color: #232323;
      cursor: pointer;
-     transform: translateY(4px);
+     
+ }
+ button:visited {
+    opacity: 0,6;
  }
 
  

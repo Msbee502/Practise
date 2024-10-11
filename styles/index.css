@@ -19,8 +19,10 @@ button:hover {
   color: orange;
   background-color: #232323;
   cursor: pointer;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+}
+
+button:visited {
+  opacity: 0, 6;
 }
 
 .input {
@@ -44,8 +46,10 @@ button:hover {
   color: orange;
   background-color: #232323;
   cursor: pointer;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+}
+
+button:visited {
+  opacity: 0, 6;
 }
 
 body {
@@ -56,6 +60,9 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: white;
 }
 
 .first-container {
@@ -116,14 +123,6 @@ body {
 .first-headline {
   font-family: "Aleo", serif;
   font-size: 36px;
-  color: white;
-}
-
-.first-text {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
-  color: white;
-  font-weight: 500;
 }
 
 .second-container {
@@ -197,8 +196,10 @@ button:hover {
   color: orange;
   background-color: #232323;
   cursor: pointer;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+}
+
+button:visited {
+  opacity: 0, 6;
 }
 
 header {
@@ -329,6 +330,8 @@ button:hover {
   color: orange;
   background-color: #232323;
   cursor: pointer;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+}
+
+button:visited {
+  opacity: 0, 6;
 }

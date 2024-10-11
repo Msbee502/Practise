@@ -25,6 +25,9 @@ body {
    height: 100vh;
    display: flex;
    flex-wrap: wrap;
+   font-family: $fontjosefin;
+   font-size: $josefin16;
+   color: white;
 }
 .first-container {
    background-image: url(/images/Bg-pic-2.jpg);
@@ -63,13 +66,7 @@ align-items: flex-end;
 .first-headline{
    font-family: $fontaleo;
    font-size: $aleo36;
-   color:white;
- }
- .first-text {
-   font-family: $fontjosefin;
-   font-size: $josefin16;
-   color: white;
-   font-weight: 500;
+   
  }
 
 .second-container {
