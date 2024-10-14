@@ -13,6 +13,7 @@ input:focus {
   background-color: #5474FD;
   border: 10px solid white;
   margin-left: -5px;
+  text-align: center;
 }
 
 button:hover {
@@ -25,6 +26,192 @@ button:visited {
   opacity: 0, 6;
 }
 
+@media screen and (max-width: 420px) {
+  header {
+    min-width: 320px;
+    height: auto;
+  }
+  .input {
+    height: 35px;
+  }
+  .searchbtn {
+    max-width: 72px;
+    height: 35px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 12px;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .img2 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .first-text-container {
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: 0;
+  }
+  .searchbtn {
+    max-width: 72px;
+    font-size: 10px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 14px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+}
 .input {
   width: 30vw;
   height: 65px;
@@ -40,6 +227,7 @@ input:focus {
   background-color: #5474FD;
   border: 10px solid white;
   margin-left: -5px;
+  text-align: center;
 }
 
 button:hover {
@@ -52,6 +240,192 @@ button:visited {
   opacity: 0, 6;
 }
 
+@media screen and (max-width: 420px) {
+  header {
+    min-width: 320px;
+    height: auto;
+  }
+  .input {
+    height: 35px;
+  }
+  .searchbtn {
+    max-width: 72px;
+    height: 35px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 12px;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .img2 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .first-text-container {
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: 0;
+  }
+  .searchbtn {
+    max-width: 72px;
+    font-size: 10px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 14px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+}
 body {
   width: 100%;
   height: 100vh;
@@ -83,6 +457,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .first-text-container {
@@ -107,13 +483,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .img1 {
@@ -123,6 +494,10 @@ body {
 .first-headline {
   font-family: "Aleo", serif;
   font-size: 36px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .second-container {
@@ -190,6 +565,7 @@ input:focus {
   background-color: #5474FD;
   border: 10px solid white;
   margin-left: -5px;
+  text-align: center;
 }
 
 button:hover {
@@ -202,6 +578,192 @@ button:visited {
   opacity: 0, 6;
 }
 
+@media screen and (max-width: 420px) {
+  header {
+    min-width: 320px;
+    height: auto;
+  }
+  .input {
+    height: 35px;
+  }
+  .searchbtn {
+    max-width: 72px;
+    height: 35px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 12px;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .img2 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .first-text-container {
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: 0;
+  }
+  .searchbtn {
+    max-width: 72px;
+    font-size: 10px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 14px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+}
 header {
   width: 100%;
   height: 100vh;
@@ -252,18 +814,29 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
-
-form {
+.formcontainer form {
+  width: 100%;
   font-family: "Aleo", serif;
   font-size: 14px;
+}
+.formcontainer .input {
+  float: left;
+  width: 75%;
+}
+
+.scroll {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+.scroll a:hover {
+  cursor: pointer;
+  color: orange;
 }
 
 .topnav {
@@ -286,8 +859,11 @@ form {
       -ms-flex-align: center;
           align-items: center;
 }
-.topnav .list {
+
+.nav {
   width: 100%;
+  height: 5vh;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,13 +876,19 @@ form {
   font-family: "Aleo", serif;
   font-size: 14px;
 }
-.topnav a {
+.nav a {
   color: white;
   text-decoration: none;
+  float: left;
+  display: block;
 }
-.topnav a:hover {
+.nav a:hover {
   cursor: pointer;
   color: orange;
+}
+
+.nav .icon {
+  display: none;
 }
 
 .input {
@@ -324,6 +906,7 @@ input:focus {
   background-color: #5474FD;
   border: 10px solid white;
   margin-left: -5px;
+  text-align: center;
 }
 
 button:hover {
@@ -334,4 +917,191 @@ button:hover {
 
 button:visited {
   opacity: 0, 6;
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    min-width: 320px;
+    height: auto;
+  }
+  .input {
+    height: 35px;
+  }
+  .searchbtn {
+    max-width: 72px;
+    height: 35px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 12px;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .img2 {
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .first-text-container {
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1%;
+    gap: 15px;
+  }
+  .img1 {
+    margin: 0;
+  }
+  .searchbtn {
+    max-width: 72px;
+    font-size: 10px;
+  }
+  form {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  p {
+    font-size: 14px;
+  }
+  .first-text-container {
+    width: 75%;
+    text-align: center;
+  }
+  .first-headline {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav .responsive {
+    position: relative;
+  }
+  .nav .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .image-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+  }
 }
