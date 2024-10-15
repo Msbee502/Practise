@@ -1,21 +1,44 @@
 @media screen and (max-width: 420px){
+  body {
+    justify-content: center;
+  }
   header {
     min-width: 320px;
-    height: auto;
+    height: auto;   
+    
   }
-  
-  .input {    
-    height: 35px;
+  .header-nav {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .searchbtn {
-    max-width: 72px;
-    height: 35px;
-  }
+}
   form {
     font-family: $fontaleo;
     font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .input {    
+      height: 15px;
+      margin-bottom: 15px;
+    }
+    .inputtext, input {
+      width: 80%;
+      
+     }
+     .searchbtn{
+      width: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    height: 30px;
+    margin-bottom: 15px;
     
+    
+     }
+        
   }
+
   .image-container1 {
     width: 100%;
     display: flex;  
@@ -44,8 +67,12 @@
 .first-headline {
   font-size: 25px;
   text-align: center;
-
 }
+
+.nav {
+  width: 100%;
+}
+
 .nav a {
   display: none;
 }
@@ -54,6 +81,8 @@
   float: right;
   display: block;
 }
+
+
 .nav .responsive {
   position: relative;
 }
@@ -72,10 +101,22 @@
 }
 
 
-}
+
 
 
 @media screen and (min-width: 420px) and (max-width: 800px) {
+
+  header {
+    height: auto;
+    
+    
+  }
+  .header-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ 
   .nav a {
     display: none;
   }
@@ -132,18 +173,31 @@
   margin: 0;
  
 }
-.img2 {
-  
-}
-.searchbtn {
-  max-width: 72px;
-  font-size: 10px;
-}
+
 form {
   font-family: $fontaleo;
-  font-size: $aleo14;
-  
+  font-size: 12px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .input {    
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  .inputtext, input {
+    width: 80%;
+    
+   }
+   .searchbtn{
+    width: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    height: 30px;
+    margin-bottom: 15px;
+    
+   }
+
 }
 }
-
-

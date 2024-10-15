@@ -42,33 +42,62 @@ header {
         font-size: $josefin16;
     }
 }
+
 .formcontainer {
     display: flex;
-    align-items: end;    
-      
-
+  
+    
+}   
 form {
-    width: 100%;
-    font-family: $fontaleo;
-    font-size: $aleo14;
+    display: flex;
+    flex-direction: row;
     
 }
-.input {
-    float: left;
-    width: 75%;
-}
-}
+    .inputtext {
+        width: 40vh;
+        font-family: $fontaleo;
+        font-size: $aleo14;
+    }
+    .input {
+        width: 100%;
+        height: 41px;
+        float: left;
+        border: 10px solid white;
+    }
+
+    
+    input:focus {
+        background-color: orange;
+
+    }
+    .searchbutton {
+        width: 25%;
+        
+    }
+    .searchbtn {
+        background-color: #5474FD;
+        border: 10px solid white;
+        margin-left: -5px;
+        text-align: center;
+        height: 63px;
+    }
+
+    a:hover {
+        @include linkhover;
+
+    }
+
+
+
 .scroll {
     font-family: $fontjosefin;
     font-size: $josefin14;
     color: white;
     text-decoration: none;
-
-    a:hover{
-        @include linkhover;
-
-    }
+    margin-bottom: 20px;
 }
+
+
 
 //second section with navigation menu//
 
@@ -79,24 +108,24 @@ form {
     display: flex;
     align-items: end;
     justify-content: space-between;
-    }
+}
 
 .topnav {
     align-items: center;
 }
 
 .nav {
-        width: 100%;
-        height: 5vh;
-        overflow: hidden;
-        display: flex;
-        justify-content: flex-end;
-        gap: 25px;
-        margin-right: 25px;
-        list-style: none;
-        font-family: $fontaleo;
-        font-size: $aleo14;
-    
+    width: 100%;
+    height: 5vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 25px;
+    list-style: none;
+    font-family: $fontaleo;
+    font-size: $aleo14;
+
 
     a {
         color: white;
@@ -110,12 +139,12 @@ form {
         cursor: pointer;
         color: orange;
     }
-   
+
     //   a:visited {
     //     color: grey;
     //   }
 }
+
 .nav .icon {
     display: none;
 }
-
