@@ -10,8 +10,7 @@
   .header-nav {
     flex-wrap: wrap;
     justify-content: center;
-  }
-}
+  }  
   form {
     font-family: $fontaleo;
     font-size: 12px;
@@ -35,9 +34,8 @@
     margin-bottom: 15px;
     
     
-     }
-        
-  }
+     } 
+    }    
 
   .image-container1 {
     width: 100%;
@@ -99,6 +97,7 @@
   text-align: left;
 
 }
+  }
 
 
 
@@ -180,7 +179,7 @@ form {
   height: auto;
   flex-wrap: wrap;
   justify-content: center;
-
+}
   .input {    
     height: 20px;
     margin-bottom: 15px;
@@ -200,4 +199,4 @@ form {
    }
 
 }
-}
+
