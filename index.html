@@ -13,7 +13,9 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
@@ -25,20 +27,23 @@
         <div class="header-nav">
             <h1>Bhromaon</h1>
             <p>Safe travel anywhere</p>
+
+            <div class="formcontainer">
+                <form action="#">
+                    <div class="inputtext">
+                        <input type="text" class="input" placeholder="Search your travel destination" required>
+                    </div>
+                    <div class="searchbutton">
+                        <button type="search" class="searchbtn"
+                            onclick="alert('Searching for your next travel destination...')"> SEARCH </button>
+                    </div>
+                </form>
+            </div>
+            <div class="scroll"> <a href="#first-container" class="scroll"> Scroll Down <img src="images/scroll.png"
+                        alt="scroll"></a>
+            </div>
         </div>
-        <div class="formcontainer">
-            <form action="#">
-                <div class="inputtext">
-                <input type="text" class="input" placeholder="Search your travel destination" required>
-                </div>
-                <div class="searchbutton">
-                <button type="search" class="searchbtn"
-                    onclick="alert('Searching for your next travel destination...')"> SEARCH </button>
-                </div>
-            </form>
-        </div>
-        <div class="scroll"> <a href="#first-container" class="scroll"> Scroll Down <img src="images/scroll.png" alt="scroll"></a>
-        </div>
+        <!-- navigation -->
         <nav class="topnav">
             <a href="index.html">
                 <img src="images/Logo.png" alt="Logo" class="active"></a>
@@ -48,44 +53,78 @@
                 <a href="#">TRAVEL WITH US</a>
                 <a href="#">CONTACT US</a>
                 <a class="icon" onclick="burgerMenu()">
-                <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
                 </a>
             </div>
         </nav>
 
     </header>
+    <!-- First part -->
     <div class="first-container" id="first-container">
-        
+
         <div class="first-text-container">
-           
+
             <p class="first-headline">Why choose us</p>
             <p class="first-text">Tion and dislike men who are so beguiled and demoralized by
                 desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
-                <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+            <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by
                 desire, tha</p>
-            
+
         </div>
         <div class="image-container1">
             <div class="img1"><img src="images/Image2-second-container.png" alt="Mountains" class="img1"></div>
             <div class="img2"><img src="images/Image1-second-container.png" alt="Mountains" class="img2"></div>
         </div>
     </div>
-    <div class="second-container"></div>
-    <div class="third-container"></div>
-    <div class="fourth-container"></div>
+    <!-- Second part -->
+    <div class="second-container">
+        <div class="symbols">
+            <a href="#formcontainer"><img src="images/magnifying.png" alt="magnifyingglass"></a>
+
+            <a href="#"><img src="images/checkbox.png" alt="checkbox"></a>
+
+            <a href="book"><img src="images/thumbsup.png" alt="thumbsup"></a>
+        </div>
+        <div class="symbol-text">
+            <p class="secondcontainer-text">Search Places</p>
+            <p class="secondcontainer-text">Select Places</p>
+            <p class="secondcontainer-text">Book & Enjoy</p>
+        </div>
+    </div>
+    <div class="third-container">
+        <div class="grid-container1">
+            <div class="card">
+                <p>Spain</p>
+                <h4>Grand Spain Madrid</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit, exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
+                <a href="#" class="button">BOOK NOW</a> 
+            </div>
+        </div>
+
+    </div>
+    <div class="fourth-container">
+        <div class="grid-container2">
+            <div class="card2">
+                <p>Spain</p>
+                <h4>Grand Spain Madrid</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit, exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
+                <a href="#" class="button">BOOK NOW</a> 
+            </div>
+        </div>
+    </div>
     <div class="fifth-container"></div>
     <div class="sixth-container"></div>
     <script>
         function burgerMenu() {
             let burger = document.getElementById("nav-bar");
             if (burger.className === "nav") {
-            burger.className += " responsive";
+                burger.className += "responsive";
             } else {
-            burger.className = "nav";
+                burger.className = "nav";
             }
         }
-        
-        </script>
+
+    </script>
 </body>
 
 </html>
