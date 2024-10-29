@@ -195,6 +195,120 @@
   .second-container .magnyfying .checkbox .thumbsup {
     max-width: 60px;
   }
+  .third-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .grid-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .card {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .third-container .card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .third-container .card h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fourth-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .grid-container2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .card2 {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .fourth-container .card2 p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .fourth-container .card2 h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container {
+    width: 100%;
+  }
+  .fifth-container .grid-container3 {
+    width: 420px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .fifth-container .fifthcontainerImage {
+    width: 250px;
+  }
+  .fifth-container .fifth-container-headline {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container .fifth-container-text {
+    width: 320px;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 420px) and (max-width: 800px) {
   header {
@@ -1251,6 +1365,120 @@ body {
   .second-container .magnyfying .checkbox .thumbsup {
     max-width: 60px;
   }
+  .third-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .grid-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .card {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .third-container .card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .third-container .card h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fourth-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .grid-container2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .card2 {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .fourth-container .card2 p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .fourth-container .card2 h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container {
+    width: 100%;
+  }
+  .fifth-container .grid-container3 {
+    width: 420px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .fifth-container .fifthcontainerImage {
+    width: 250px;
+  }
+  .fifth-container .fifth-container-headline {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container .fifth-container-text {
+    width: 320px;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 420px) and (max-width: 800px) {
   header {
@@ -1511,6 +1739,11 @@ input:focus {
   height: 63px;
 }
 
+.searchbtn:hover {
+  color: orange;
+  cursor: pointer;
+}
+
 a:hover {
   color: orange;
   cursor: pointer;
@@ -1571,6 +1804,41 @@ a:hover {
 
 .nav .icon {
   display: none;
+}
+
+.footer {
+  width: 100%;
+  height: 268px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .headlinefooter {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer .textfooter {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  display: block;
+}
+.footer a:hover {
+  cursor: pointer;
+  color: orange;
 }
 
 .button {
@@ -1769,6 +2037,120 @@ a:hover {
   }
   .second-container .magnyfying .checkbox .thumbsup {
     max-width: 60px;
+  }
+  .third-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .grid-container1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .third-container .card {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .third-container .card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .third-container .card h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fourth-container {
+    max-width: 100%;
+    height: 75%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .grid-container2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fourth-container .card2 {
+    width: 250px;
+    height: 35vh;
+    padding: 20px;
+    text-align: left;
+    background-color: #333333;
+    opacity: 0.9;
+    overflow: auto;
+  }
+  .fourth-container .card2 p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+  }
+  .fourth-container .card2 h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container {
+    width: 100%;
+  }
+  .fifth-container .grid-container3 {
+    width: 420px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .fifth-container .fifthcontainerImage {
+    width: 250px;
+  }
+  .fifth-container .fifth-container-headline {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+  }
+  .fifth-container .fifth-container-text {
+    width: 320px;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 420px) and (max-width: 800px) {
