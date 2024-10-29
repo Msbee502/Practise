@@ -125,24 +125,26 @@
 
   //third section with thumbs up
   .second-container {
+    background-color:#333333;
     max-width: 420px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    align-items: center; //why does the bg-pic still appear? I have removed it in media screen?
   
 
   .symbols { //Cant get the symbols and text to change size in media screen
-    max-width: 420px;
+    max-width: 320px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
   }
 
   .symbol-text {
     display: flex;
-    max-width: 420px;
+    max-width: 320px;
   }
 
   .secondcontainer-text {
+    max-width: 420px;
     font-size: $aleo24;
   }
   .magnyfying .checkbox .thumbsup {
