@@ -82,15 +82,15 @@
   }
 
 
-//second section
-.first-container {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;  
-  justify-content: space-evenly;
-}
+  //second section
+  .first-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
   .image-container1 {
     display: flex;
@@ -110,7 +110,7 @@
     .img2 {
       margin: auto;
       object-fit: contain;
-      width: 250px; 
+      width: 250px;
     }
   }
 
@@ -118,41 +118,38 @@
     max-width: 300px;
   }
 
-    .first-headline {
-      font-size: 25px;
-      text-align: center;
-    }
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
 
-    //third section
-    .second-container {
-      max-width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   
-      .symbols {
-         background-image: url(/images/Shape\ 1.png);
-         background-repeat: no-repeat;
-         background-position: center;
-         max-width: 420px;
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         }
-         .symbol-text {
-          font-size: $josefin20;
-            
-            display: flex;
-            justify-content: space-between;
-            width: 100vh;
-         }
-         .secondcontainer-text {
-            font-family: $fontaleo;
-            font-size: $aleo36;
-         }
-   
-   }
+  //third section with thumbs up
+  .second-container {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;   
+  
+
+  .symbols { //Cant get the symbols and text to change size in media screen
+    max-width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .symbol-text {
+    display: flex;
+    max-width: 420px;
+  }
+
+  .secondcontainer-text {
+    font-size: $aleo24;
+  }
+  .magnyfying .checkbox .thumbsup {
+    max-width: 60px;
+  }
+}
+
 }
 
 
@@ -184,7 +181,7 @@
     font-size: $josefin16;
   }
 
-  
+
   .nav .responsive {
     position: relative;
   }
@@ -230,45 +227,44 @@
     margin-bottom: 15px;
 
   }
+
   .first-container {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items: center;  
+    align-items: center;
     justify-content: space-evenly;
   }
-  
-    .image-container1 {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      padding: 1%;
-      gap: 15px;
-  
-  
-      .img1 {
-        margin: auto;
-        object-fit: contain;
-        width: 250px;
-      }
-  
-      .img2 {
-        margin: auto;
-        object-fit: contain;
-        width: 250px; 
-      }
-    }
-  
-    .first-text {
-      max-width: 300px;
-    }
-  
-      .first-headline {
-        font-size: 25px;
-        text-align: center;
-      }
-  }
-  
 
+  .image-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+    gap: 15px;
+
+
+    .img1 {
+      margin: auto;
+      object-fit: contain;
+      width: 250px;
+    }
+
+    .img2 {
+      margin: auto;
+      object-fit: contain;
+      width: 250px;
+    }
+  }
+
+  .first-text {
+    max-width: 300px;
+  }
+
+  .first-headline {
+    font-size: 25px;
+    text-align: center;
+  }
+}
